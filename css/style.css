@@ -11,3 +11,11 @@ body, html {
     position: relative;
 }
 
+.wip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 300px;
+    font-size: 100px;
+}
