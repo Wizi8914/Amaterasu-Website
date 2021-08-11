@@ -1,0 +1,37 @@
+.header {
+    height: 80px;
+    width: 100%;
+    background: #379C6F;
+}
+
+.header__navbar--logo--name {
+    color: white;
+    font-size: 30px;
+}
+
+.header__navbar--logo--amaterasu {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.header__navbar--logo {
+    align-items: center;
+    display: flex;
+}
+
+.header__navbar {
+    width: 100%;
+    height: auto;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar--menu--link {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
