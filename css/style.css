@@ -5,6 +5,18 @@ body, html {
     font-family: 'Nunito', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
 .container {
     width: 95%;
     margin: auto;
