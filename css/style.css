@@ -14,8 +14,8 @@ body, html {
 .wip {
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
     margin-top: 300px;
-    font-size: 100px;
+    font-size: auto;
 }
+

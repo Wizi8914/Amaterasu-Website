@@ -31,11 +31,16 @@
 }
 
 .header__navbar--menu--link {
-    margin-left: 30px;
+    margin-left: 15px;
     color: white;
     text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition-duration: 500ms;
+
 }
 
-.fas fa-palette {
+.header__navbar--menu--link:hover {
+    background-color: #3e8364;
     color: white;
 }
