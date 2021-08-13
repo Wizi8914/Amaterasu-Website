@@ -6,3 +6,13 @@
     overflow-x: hidden;
     position: sticky;
 }
+
+.commandinfo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: calc(100% - 20rem);
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -47,4 +47,13 @@ p {
 
 .grid {
     display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.separate {
+    display: flex;
+    max-width: 1536px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
