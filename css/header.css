@@ -2,6 +2,7 @@
     height: 80px;
     width: 100%;
     background: #379C6F;
+    display: block;
 }
 
 .header__navbar--logo--name {

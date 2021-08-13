@@ -34,3 +34,14 @@ body, html {
 p {
     color: white;
 }
+
+#container {
+    overscroll-behavior-y: none;
+    height: calc(100vh - 80px);
+    overflow: auto;
+}
+
+
+.grid {
+    display: grid;
+}
