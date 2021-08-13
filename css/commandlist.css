@@ -1,0 +1,8 @@
+.commandlist {
+    background: rgb(35, 37, 35);
+    margin-top: 0;
+    width: 20rem;
+    height: calc(100vh - 4rem);
+    overflow-x: hidden;
+    position: sticky;
+}

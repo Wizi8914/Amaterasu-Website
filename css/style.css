@@ -10,7 +10,11 @@ body, html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #45a87c;
+    background: #5bcc99;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #77d4ab;
 }
 
 ::-webkit-scrollbar-track {
@@ -31,16 +35,15 @@ body, html {
     font-size: auto;
 }
 
-p {
-    color: white;
-}
-
 #container {
     overscroll-behavior-y: none;
     height: calc(100vh - 80px);
     overflow: auto;
 }
 
+p {
+    color: white;
+}
 
 .grid {
     display: grid;
