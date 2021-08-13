@@ -10,11 +10,11 @@ body, html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: red;
+    background: #45a87c;
 }
 
 ::-webkit-scrollbar-track {
-    background: black;
+    background: #292828;
 }
 
 .container {
@@ -31,3 +31,6 @@ body, html {
     font-size: auto;
 }
 
+p {
+    color: white;
+}
