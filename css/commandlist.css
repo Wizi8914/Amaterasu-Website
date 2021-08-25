@@ -1,7 +1,7 @@
 .commandlist {
     background: rgb(35, 37, 35);
-    margin-top: 0;
-    width: 20rem;
+    margin-top: 0px;
+    width: 15rem;
     height: calc(100vh - 4rem);
     overflow-x: hidden;
     position: sticky;
@@ -15,4 +15,24 @@
     width: calc(100% - 20rem);
     margin-left: auto;
     margin-right: auto;
+}
+
+.searchbox {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.searchboxitem {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    transition-duration: 250ms;
+    background-color: #1a1919;
+}
+
+.searchboxitem:hover {
+    background-color: #1d1c1c;
 }
