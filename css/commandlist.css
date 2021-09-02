@@ -37,3 +37,12 @@
 .searchboxitem:hover {
     background-color: #1d1c1c;
 }
+
+
+li {
+    display: list-item;
+}
+
+ul {
+    list-style: none;
+}

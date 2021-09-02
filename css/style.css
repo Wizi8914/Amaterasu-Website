@@ -1,7 +1,7 @@
 body, html {
     background-color: #1D1D1D;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -54,8 +54,7 @@ p {
 
 .separate {
     display: flex;
-    max-width: 1536px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
 }
