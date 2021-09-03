@@ -4,7 +4,6 @@
     width: 15rem;
     height: calc(100vh - 4rem);
     overflow-x: hidden;
-    position: sticky;
 }
 
 .commandinfo {

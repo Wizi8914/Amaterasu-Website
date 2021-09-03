@@ -1,7 +1,7 @@
 body, html {
     background-color: #1D1D1D;
+    height: 100vh;
     margin: 0px;
-    padding: 0px;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -24,7 +24,6 @@ body, html {
 .container {
     width: 95%;
     margin: auto;
-    position: relative;
 }
 
 .wip {
