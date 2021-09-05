@@ -46,3 +46,17 @@ li {
 ul {
     list-style: none;
 }
+
+button {
+    border: 0;
+    background: transparent;
+    color: white;
+    padding: 13px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background: #312f31;
+}
