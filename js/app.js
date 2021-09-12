@@ -4,3 +4,8 @@ window.addEventListener("load", () => {
         document.querySelector(".loader").remove();
     }, 400);
 });
+
+const music = document.querySelector('.music')
+
+music.addEventListener("")
+
