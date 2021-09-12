@@ -48,10 +48,6 @@ ul {
 
 }
 
-.listcommand:nth-child(0) ul{
-    display: none;
-}
-
 .categorylist button {
     border: 0;
     background: transparent;
@@ -63,20 +59,6 @@ ul {
     cursor: pointer;
 }
 
-.music {
-    border: 0;
-    background: transparent;
-    color: white;
-    padding: 13px;
-    margin-top: 15px;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.music:hover {
-    background: #312f31;
-}
 
 button:hover {
     background: #312f31;
