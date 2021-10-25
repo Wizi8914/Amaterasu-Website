@@ -63,3 +63,19 @@ ul {
 button:hover {
     background: #312f31;
 }
+
+
+.test {
+    display: flex;
+    gap: .25rem;
+}
+
+i {
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
