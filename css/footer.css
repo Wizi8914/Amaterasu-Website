@@ -11,7 +11,7 @@
     justify-content: center;
     display: flex;
     font-size: small;
-    margin-left: 15px;
+    margin-left: calc(100% / 2);
 }
 
 .linkfooter {
