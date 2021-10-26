@@ -70,7 +70,13 @@ button:hover {
     gap: .25rem;
 }
 
+.commandlink:hover {
+    color: #52c794;
+}
+
 a {
     text-decoration: none;
     color: white;
+    transition-duration: 250ms;
+
 }
