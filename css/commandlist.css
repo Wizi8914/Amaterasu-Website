@@ -4,6 +4,7 @@
     width: 15rem;
     height: calc(100vh - 4rem);
     overflow-x: hidden;
+    position: sticky;
 }
 
 .commandinfo {
@@ -11,6 +12,7 @@
     padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    overflow-x: hidden;
     width: calc(100% - 20rem);
     margin-left: auto;
     margin-right: auto;
@@ -65,9 +67,13 @@ button:hover {
 }
 
 
-.test {
+.arrow {
     display: flex;
-    gap: .25rem;
+}
+
+.arrow i {
+    padding-left: 5.25px;
+    padding-right: 5.25px;
 }
 
 .commandlink:hover {

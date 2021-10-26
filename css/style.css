@@ -24,6 +24,8 @@ body, html {
 .container {
     width: 95%;
     margin: auto;
+    height: calc(100vh - 4rem);
+    
 }
 
 .wip {
@@ -56,4 +58,5 @@ p {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    height: calc(100vh - 4rem);
 }
