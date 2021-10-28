@@ -1,7 +1,6 @@
 .command {
     background: rgb(35, 37, 35);
     margin-top: 0px;
-    overflow-x: hidden;
     height: calc(100vh - 4rem);
     width: 18rem;
     overflow-x: hidden;
