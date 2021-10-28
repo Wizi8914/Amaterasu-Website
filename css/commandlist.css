@@ -12,6 +12,9 @@
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
 }
 
 .searchbox {
