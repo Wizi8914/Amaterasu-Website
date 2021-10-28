@@ -3,30 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>Amaterasu support</title>
-        <link rel="shortcut icon" href="./assets/logo amaterasu.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../assets/logo amaterasu.ico" type="image/x-icon">
 
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/5991870b6e.js" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/commandlist.css">
-        <link rel="stylesheet" href="./css/loader.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <script src="./js/app.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/commandlist.css">
+        <link rel="stylesheet" href="../css/loader.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <script src="../js/app.js"></script>
     </head>
 
     <body>
+
         <div class="loader">
             <h1 class="loadertext">CHARGEMENT</h1>
-            <img class="loadergif" src="./assets/loader.gif">
+            <img class="loadergif" src="../assets/loader.gif">
         </div>
-
         <div class="header">
             <div class="container">
                 <div class="header__navbar">
                     <div class="header__navbar--logo">
-                        <img class= "header__navbar--logo--amaterasu" src="./assets/logo amaterasu.png">
+                        <img class= "header__navbar--logo--amaterasu" src="../assets/logo amaterasu.png">
                         <h1 class="header__navbar--logo--name">Amaterasu</h1>
                     </div>
                     <div class="header__navbar--menu">
@@ -38,6 +38,7 @@
             </div>
         </div>
         <div id="container" class="grid">
+
             <div class="separate">
                 <div class="command">
                     <nav class="commandlist">
@@ -120,9 +121,9 @@
                                         </div>
                                     </button>
                                     <ul>
-                                        <li><a class="commandlink" href="/pages/moderation.html#ban">ban</a></li>
-                                        <li><a class="commandlink" href="/pages/moderation.html#kick">kick</a></li>
-                                        <li><a class="commandlink" href="/pages/moderation.html#stopbot">stopbot</a></li>
+                                        <li><a class="commandlink" href="#ban">ban</a></li>
+                                        <li><a class="commandlink" href="#kick">kick</a></li>
+                                        <li><a class="commandlink" href="#stopbot">stopbot</a></li>
                                     </ul>
                                 </li>
                                 <li class="listcommand">
@@ -167,10 +168,19 @@
                         </div>
                     </nav>
                 </div>
-                
-                <nav class="commandinfo">
-                    <h1 class="wip">WORK IN PROGRESS...</h1>
-                </nav>
+
+                <div class="commandinfo">
+                    <h1 class="wip" id="clear">clear</h1>
+                    <h1 class="wip" id="info">info</h1>
+                    <h1 class="wip" id="join">join</h1>
+                    <h1 class="wip" id="leave">leave</h1>
+                    <h1 class="wip" id="pause">pause</h1>
+                    <h1 class="wip" id="play">play</h1>
+                    <h1 class="wip" id="queue">queue</h1>
+                    <h1 class="wip" id="resume">resume</h1>
+                    <h1 class="wip" id="skip">skip</h1>
+                    <h1 class="wip" id="skipto">skipto</h1>
+                </div>
             </div>
 
             <footer class="sitefooter">
