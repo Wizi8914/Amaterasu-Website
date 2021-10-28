@@ -17,11 +17,11 @@
     </head>
 
     <body>
-
         <div class="loader">
             <h1 class="loadertext">CHARGEMENT</h1>
             <img class="loadergif" src="./assets/loader.gif">
         </div>
+
         <div class="header">
             <div class="container">
                 <div class="header__navbar">
@@ -40,133 +40,136 @@
         <div id="container" class="grid">
 
             <div class="separate">
-                <nav class="commandlist sticky">
-                    <div class="searchbox">
-                        <input class="searchboxitem" name="search_query" type="text" role="combobox" placeholder="Rechercher">
-                    </div>
-                    <div class="categorylist">
-                        <ul>
-                            <li class="listcommand">
-                                <button onclick="list(1)">
-                                    <div class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                        <span>MUSIC</span>
-                                    </div>
-                                </button>
-                                <ul>
-                                    <li><a class="commandlink" href="/pages/music.html#info">clear</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#info">info</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#join">join</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#leave">leave</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#lyrics">lyrics</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#pause">pause</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#play">play</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#queue">queue</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#resume">resume</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#skip">skip</a></li>
-                                    <li><a class="commandlink" href="/pages/music.html#skipto">skipto</a></li>
-                                </ul>
-                            </li>
-                            <li class="listcommand">
-                                <button onclick="list(2)">
-                                    <div class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                        <span>DIVERS</span>
-                                    </div>
-                                </button>
-                                <ul>
-                                    <li>avatar</li>
-                                    <li>calcul</li>
-                                    <li>calculator</li>
-                                    <li>cat</li>
-                                    <li>coinflip</li>
-                                    <li>dog</li>
-                                    <li>gif</li>
-                                    <li>icon</li>
-                                    <li>image</li>
-                                    <li>invite</li>
-                                    <li>mcplayer</li>
-                                    <li>osuplayer</li>
-                                    <li>pi</li>
-                                    <li>say</li>
-                                    <li>sbstats</li>
-                                    <li>soundboard</li>
-                                    <li>wikipedia</li>
-                                    <li>bug</li>
-                                    <li>translate</li>
-                                </ul>
-                            </li>
-                            <li class="listcommand">
-                                <button onclick="list(3)">
-                                    <div class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                        <span>UTILITAIRE</span>
-                                    </div>
-                                </button>
-                                <ul>
-                                    <li>botinfo</li>
-                                    <li>clearchat</li>
-                                    <li>help</li>
-                                    <li>ping</li>
-                                    <li>roles</li>
-                                    <li>server</li>
-                                    <li>servericon</li>
-                                </ul>
-                            </li>
-                            <li class="listcommand">
-                                <button onclick="list(4)">
-                                    <div class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                        <span>MODERATION</span>
-                                    </div>
-                                </button>
-                                <ul>
-                                    <li>ban</li>
-                                    <li>kick</li>
-                                    <li>stopbot</li>
-                                </ul>
-                            </li>
-                            <li class="listcommand">
-                                <button onclick="list(5)">
-                                    <div class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                        <span>NSFW</span>
-                                    </div>
-                                </button>
-                                <ul>
-                                    <li>bondage</li>
-                                    <li>hentai</li>
-                                    <li>thigh</li>
-                                </ul>
-                            </li>
-                            <li class="listcommand">
-                                <button onclick="list(6)">
-                                    <div class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                        <span>INTERACTION</span>
-                                    </div>
-                                </button>
-                                <ul>
-                                    <li>feed</li>
-                                    <li>hug</li>
-                                    <li>kiss</li>
-                                    <li>pat</li>
-                                </ul>
-                            </li>
-                            <li class="listcommand">
-                                <button onclick="list(7)">
-                                    <div class="arrow">
-                                        <i class="fas fa-angle-down"></i>
-                                        <span>ANIME</span>
-                                    </div>
-                                </button>
-                                <ul>
-                                    <li>animeinfo</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                <div class="command">
+                    <nav class="commandlist">
+                        <div class="searchbox">
+                            <input class="searchboxitem" name="search_query" type="text" role="combobox" placeholder="Rechercher">
+                        </div>
+                        <div class="categorylist">
+                            <ul>
+                                <li class="listcommand">
+                                    <button onclick="list(1)">
+                                        <div class="arrow">
+                                            <i class="fas fa-angle-down"></i>
+                                            <span>MUSIC</span>
+                                        </div>
+                                    </button>
+                                    <ul>
+                                        <li><a class="commandlink" href="/pages/music.html#info">clear</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#info">info</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#join">join</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#leave">leave</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#lyrics">lyrics</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#pause">pause</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#play">play</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#queue">queue</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#resume">resume</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#skip">skip</a></li>
+                                        <li><a class="commandlink" href="/pages/music.html#skipto">skipto</a></li>
+                                    </ul>
+                                </li>
+                                <li class="listcommand">
+                                    <button onclick="list(2)">
+                                        <div class="arrow">
+                                            <i class="fas fa-angle-down"></i>
+                                            <span>DIVERS</span>
+                                        </div>
+                                    </button>
+                                    <ul>
+                                        <li>avatar</li>
+                                        <li>calcul</li>
+                                        <li>calculator</li>
+                                        <li>cat</li>
+                                        <li>coinflip</li>
+                                        <li>dog</li>
+                                        <li>gif</li>
+                                        <li>icon</li>
+                                        <li>image</li>
+                                        <li>invite</li>
+                                        <li>mcplayer</li>
+                                        <li>osuplayer</li>
+                                        <li>pi</li>
+                                        <li>say</li>
+                                        <li>sbstats</li>
+                                        <li>soundboard</li>
+                                        <li>wikipedia</li>
+                                        <li>bug</li>
+                                        <li>translate</li>
+                                    </ul>
+                                </li>
+                                <li class="listcommand">
+                                    <button onclick="list(3)">
+                                        <div class="arrow">
+                                            <i class="fas fa-angle-down"></i>
+                                            <span>UTILITAIRE</span>
+                                        </div>
+                                    </button>
+                                    <ul>
+                                        <li>botinfo</li>
+                                        <li>clearchat</li>
+                                        <li>help</li>
+                                        <li>ping</li>
+                                        <li>roles</li>
+                                        <li>server</li>
+                                        <li>servericon</li>
+                                    </ul>
+                                </li>
+                                <li class="listcommand">
+                                    <button onclick="list(4)">
+                                        <div class="arrow">
+                                            <i class="fas fa-angle-down"></i>
+                                            <span>MODERATION</span>
+                                        </div>
+                                    </button>
+                                    <ul>
+                                        <li>ban</li>
+                                        <li>kick</li>
+                                        <li>stopbot</li>
+                                    </ul>
+                                </li>
+                                <li class="listcommand">
+                                    <button onclick="list(5)">
+                                        <div class="arrow">
+                                            <i class="fas fa-angle-down"></i>
+                                            <span>NSFW</span>
+                                        </div>
+                                    </button>
+                                    <ul>
+                                        <li>bondage</li>
+                                        <li>hentai</li>
+                                        <li>thigh</li>
+                                    </ul>
+                                </li>
+                                <li class="listcommand">
+                                    <button onclick="list(6)">
+                                        <div class="arrow">
+                                            <i class="fas fa-angle-down"></i>
+                                            <span>INTERACTION</span>
+                                        </div>
+                                    </button>
+                                    <ul>
+                                        <li>feed</li>
+                                        <li>hug</li>
+                                        <li>kiss</li>
+                                        <li>pat</li>
+                                    </ul>
+                                </li>
+                                <li class="listcommand">
+                                    <button onclick="list(7)">
+                                        <div class="arrow">
+                                            <i class="fas fa-angle-down"></i>
+                                            <span>ANIME</span>
+                                        </div>
+                                    </button>
+                                    <ul>
+                                        <li>animeinfo</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                
                 <nav class="commandinfo">
                     <h1 class="wip">WORK IN PROGRESS...</h1>
                 </nav>
