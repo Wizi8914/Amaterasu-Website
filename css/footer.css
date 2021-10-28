@@ -1,6 +1,5 @@
 .sitefooter {
     display: flex;
-    height: 30px;
     background-color: #272727;
     align-items: center;
     justify-content: space-between;
