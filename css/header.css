@@ -20,6 +20,12 @@
     height: 45px;
     width: 45px;
     margin-right: 10px;
+    transition-duration: 250ms;
+}
+
+.header__navbar--logo--amaterasu:hover {
+    height: 55px;
+    width: 55px;
 }
 
 .header__navbar--logo {
