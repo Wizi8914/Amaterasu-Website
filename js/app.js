@@ -23,3 +23,25 @@ function list(number) {
         document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.paddingRight = '6.5px'
     }
 }
+
+//=======================================      INPUT      ============================================
+
+function search() {
+    const content = document.querySelector('.searchboxitem').value
+
+    const commandlist = []
+    for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
+        console.log("uwu", i)
+        for (let u = 1; u < document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount + 1; u++) {
+            console.log(u)
+
+            const p = document.querySelector(`.listcommand:nth-child(${i}) ul`).textContent.split("\n")
+
+            console.log(p[u].replace(/ /g, ""))
+            commandlist.push(p[u].replace(/ /g, ""))
+        }
+
+    }
+    console.log(commandlist)
+
+}
