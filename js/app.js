@@ -32,7 +32,7 @@ function list(number) {
 //=======================================      INPUT      ============================================
 
 function search() {
-    const content = document.querySelector('.searchboxitem').value
+    const content = document.querySelector('.searchboxitem').value.toLowerCase()
 
     const commandlist = []
     for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
