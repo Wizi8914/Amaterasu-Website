@@ -5,6 +5,11 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         document.querySelector(".loader").remove();
     }, 400);
+
+    
+
+
+
 });
 //===============================    COMMAND LIST    =========================================
 
@@ -46,6 +51,21 @@ function search() {
         }
         
     }
-    console.log(document.querySelectorAll(".commandlink")[0])
+    let p = 0
+    for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
+        p = 0
+        for (let u = 1; u < document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount + 1; u++) {
+            //console.log(document.querySelector(`.listcommand:nth-child(${i}) ul li:nth-child(${u}) .commandlink`).style.display)
+            
+            if (document.querySelector(`.listcommand:nth-child(${i}) ul li:nth-child(${u}) .commandlink`).style.display === "none") {
+                p++
+            }
 
+        }
+        if (p == document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount) {
+            document.querySelector(`.categorylist ul .listcommand:nth-child(${i})`).style.display = "none"
+        } else {
+            document.querySelector(`.categorylist ul .listcommand:nth-child(${i})`).style.display = "list-item"
+        }
+    }
 }

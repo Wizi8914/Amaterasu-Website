@@ -79,6 +79,10 @@ button:hover {
     padding-right: 5.25px;
 }
 
+.commandlink {
+    display: block;
+}
+
 .commandlink:hover {
     color: #52c794;
 
