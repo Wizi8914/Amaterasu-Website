@@ -37,6 +37,15 @@ function search() {
         }
 
     }
-    console.log(commandlist)
+    const o = 0
+    for (let i = 0; i < commandlist.length; i++) {
+        if (commandlist[i].includes(content) == true) {
+            document.querySelectorAll(".commandlink")[i].style.display = "block"
+        } else {
+            document.querySelectorAll(".commandlink")[i].style.display = "none"
+        }
+        
+    }
+    console.log(document.querySelectorAll(".commandlink")[0])
 
 }
