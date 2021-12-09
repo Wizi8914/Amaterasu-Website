@@ -42,7 +42,6 @@ function search() {
         }
 
     }
-    const o = 0
     for (let i = 0; i < commandlist.length; i++) {
         if (commandlist[i].includes(content) == true) {
             document.querySelectorAll(".commandlink")[i].style.display = "block"
