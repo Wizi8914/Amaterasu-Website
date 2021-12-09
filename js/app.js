@@ -55,7 +55,6 @@ function search() {
     for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
         p = 0
         for (let u = 1; u < document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount + 1; u++) {
-            //console.log(document.querySelector(`.listcommand:nth-child(${i}) ul li:nth-child(${u}) .commandlink`).style.display)
             
             if (document.querySelector(`.listcommand:nth-child(${i}) ul li:nth-child(${u}) .commandlink`).style.display === "none") {
                 p++
