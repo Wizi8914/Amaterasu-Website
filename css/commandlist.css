@@ -48,6 +48,17 @@ li {
     color: white;
 }
 
+.listcommand ul {
+    overflow: hidden;
+    will-change: height;
+    transition: height 273ms ease-in-out 0s;
+    transition-duration: 10s;
+}
+
+.listcommand ul:hover {
+    height: auto;
+}
+
 ul {
     list-style: none;
 
@@ -77,6 +88,8 @@ button:hover {
 .arrow i {
     padding-left: 5.25px;
     padding-right: 5.25px;
+    transform: rotate(0deg);
+    transition-duration: 500ms;
 }
 
 .commandlink {

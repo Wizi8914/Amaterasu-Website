@@ -57,3 +57,18 @@
     background-color: #367c5d;
     color: white;
 }
+
+.colortheme {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border: 0;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.colortheme i {
+    color: white;
+    font-size: 25px;
+}
