@@ -17,10 +17,16 @@ function list(number) {
 
     if(document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display === "none") {
         document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "list-item"
+        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.height = "auto"
+        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.overflow = "visible"
+
+
         document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.transform = "rotate(0deg)"
 
     } else {
         document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "none"
+        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.height = "0px"
+        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.overflow = "hidden"
         document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.transform = "rotate(-90deg)"
     }
 }
