@@ -50,10 +50,13 @@ li {
 
 .listcommand ul {
     transition-duration: 500ms;
+    overflow: hidden;
 }
 
 .listcommand {
     transition-duration: 500ms;
+    z-index: 1000;
+    overflow: hidden;
 }
 
 .listcommand ul:hover {
@@ -75,6 +78,7 @@ ul {
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+    z-index: 7;
 }
 
 

@@ -17,10 +17,10 @@ function list(number) {
 
     if(document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display === "none") {
         document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "list-item"
-        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.transform = `translate(0, ${document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount}`
-        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.height = "auto"
+        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.transform = `translate(0, ${document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount}px`
+        //document.querySelector(`.listcommand:nth-child(${number}) ul`).style.height = "auto"
+        document.querySelector(`.listcommand:nth-child(${number})`).style.height = "49px"
 
-        document.querySelector(`.listcommand:nth-child(${number}) ul`).style.height = "auto"
         document.querySelector(`.listcommand:nth-child(${number}) ul`).style.overflow = "visible"
         document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.transform = "rotate(0deg)"
 
@@ -30,11 +30,13 @@ function list(number) {
         document.querySelector(`.listcommand:nth-child(${number}) ul`).style.transform = `translate(0, ${document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount *-22}px)`
         document.querySelector(`.listcommand:nth-child(${number})`).style.height = "49px"
         console.log(document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount)
-        /*
+        
         setTimeout(() => {
-            document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "none"
+            //document.querySelector(`.listcommand:nth-child(${number}) ul`).style.transform = `translate(0, ${document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount}px`
+            //document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "none"
         }, 500);
-        */
+        
+        
         document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.transform = "rotate(-90deg)"
     }
 }
