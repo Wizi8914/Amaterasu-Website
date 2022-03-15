@@ -49,11 +49,16 @@ li {
 }
 
 .listcommand ul {
-    transition: height 273ms ease-in-out 0s;
+    transition-duration: 500ms;
+}
+
+.listcommand {
+    transition-duration: 500ms;
 }
 
 .listcommand ul:hover {
     color: cyan;
+    cursor: alias;
 }
 
 ul {
