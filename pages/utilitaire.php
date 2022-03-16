@@ -22,140 +22,15 @@
             <h1 class="loadertext">CHARGEMENT</h1>
             <img class="loadergif" src="../assets/loader.gif">
         </div>
-        <div class="header">
-            <div class="container">
-                <div class="header__navbar">
-                    <a href="../index.html" class="header__navbar--logo">
-                        <img class= "header__navbar--logo--amaterasu" src="../assets/logo amaterasu.png">
-                        <h1 class="header__navbar--logo--name">Amaterasu</h1>
-                    </a>
-                    <div class="header__navbar--menu">
-                        <a href="https://discord.gg/5Mww29D9kB" class="header__navbar--menu--link" target="_blank"><i class="fab fa-discord"></i> Discord</a>
-                        <a href="https://github.com/Wizi8914/Amaterasu" class="header__navbar--menu--link" target="_blank"><i class="fab fa-github"></i> Github</a>
-                        <a href="https://twitter.com/Wizi20540539" class="header__navbar--menu--link" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php 
+            include "../Includes/header.html"
+        ?>
         <div id="container" class="grid">
 
             <div class="separate">
-                <div class="command">
-                    <nav class="commandlist">
-                        <div class="searchbox">
-                            <input class="searchboxitem" name="search_query" type="text" role="combobox" placeholder="Rechercher" oninput="search()">
-                        </div>
-                        <div class="categorylist">
-                            <ul>
-                                <li class="listcommand">
-                                    <button onclick="list(1)">
-                                        <div class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                            <span>MUSIC</span>
-                                        </div>
-                                    </button>
-                                    <ul>
-                                        <li><a class="commandlink" href="/pages/music.html#clear">clear</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#info">info</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#join">join</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#leave">leave</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#lyrics">lyrics</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#pause">pause</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#play">play</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#queue">queue</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#resume">resume</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#skip">skip</a></li>
-                                        <li><a class="commandlink" href="/pages/music.html#skipto">skipto</a></li>
-                                    </ul>
-                                </li>
-                                <li class="listcommand">
-                                    <button onclick="list(2)">
-                                        <div class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                            <span>DIVERS</span>
-                                        </div>
-                                    </button>
-                                    <ul>
-                                        <li><a class="commandlink" href="/pages/divers.html#avatar">avatar</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#calcul">calcul</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#calculator">calculator</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#cat">cat</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#coinflip">coinflip</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#dog">dog</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#gif">gif</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#icon">icon</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#image">image</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#invite">invite</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#mcplayer">mcplayer</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#pi">pi</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#say">say</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#sbstats">sbstats</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#soundboard">soundboard</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#wikipedia">wikipedia</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#bug">bug</a></li>
-                                        <li><a class="commandlink" href="/pages/divers.html#translate">translate</a></li>
-                                    </ul>
-                                </li>
-                                <li class="listcommand">
-                                    <button onclick="list(3)">
-                                        <div class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                            <span>UTILITAIRE</span>
-                                        </div>
-                                    </button>
-                                    <ul>
-                                        <li><a class="commandlink" href="#botinfo">botinfo</a></li>
-                                        <li><a class="commandlink" href="#clearchat">clearchat</a></li>
-                                        <li><a class="commandlink" href="#help">help</a></li>
-                                        <li><a class="commandlink" href="#ping">ping</a></li>
-                                        <li><a class="commandlink" href="#roles">roles</a></li>
-                                        <li><a class="commandlink" href="#server">server</a></li>
-                                        <li><a class="commandlink" href="#servericon">servericon</a></li>
-                                    </ul>
-                                </li>
-                                <li class="listcommand">
-                                    <button onclick="list(4)">
-                                        <div class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                            <span>MODERATION</span>
-                                        </div>
-                                    </button>
-                                    <ul>
-                                        <li><a class="commandlink" href="/pages/moderation.html#ban">ban</a></li>
-                                        <li><a class="commandlink" href="/pages/moderation.html#kick">kick</a></li>
-                                        <li><a class="commandlink" href="/pages/moderation.html#stopbot">stopbot</a></li>
-                                    </ul>
-                                </li>
-                                <li class="listcommand">
-                                    <button onclick="list(5)">
-                                        <div class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                            <span>INTERACTION</span>
-                                        </div>
-                                    </button>
-                                    <ul>
-                                        <li><a class="commandlink" href="/pages/interaction.html#feed">feed</a></li>
-                                        <li><a class="commandlink" href="/pages/interaction.html#hug">hug</a></li>
-                                        <li><a class="commandlink" href="/pages/interaction.html#kiss">kiss</a></li>
-                                        <li><a class="commandlink" href="/pages/interaction.html#pat">pat</a></li>
-                                    </ul>
-                                </li>
-                                <li class="listcommand">
-                                    <button onclick="list(6)">
-                                        <div class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                            <span>ANIME</span>
-                                        </div>
-                                    </button>
-                                    <ul>
-                                        <li><a class="commandlink" href="/pages/anime.html#anime">anime</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-
+                <?php
+                    include "../Includes/sidebar.html"
+                ?>
                 <div class="commandinfo">
                     <h1 class="wip" id="botinfo">botinfo</h1>
                     <h1 class="wip" id="clearchat">clearchat</h1>
@@ -168,7 +43,7 @@
             </div>
 
             <?php 
-                include "../Includes/footer.php"
+                include "../Includes/footer.html"
             ?>
         </div>
     </body>

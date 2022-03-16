@@ -23,13 +23,13 @@
             <img class="loadergif" src="../assets/loader.gif">
         </div>
         <?php 
-            include "../Includes/header.php"
+            include "../Includes/header.html"
         ?>
         <div id="container" class="grid">
 
             <div class="separate">
                 <?php
-                    include "../Includes/sidebar.php"
+                    include "../Includes/sidebar.html"
                 ?>
 
                 <div class="commandinfo">
@@ -38,7 +38,7 @@
             </div>
 
             <?php 
-                include "../Includes/footer.php"
+                include "../Includes/footer.html"
             ?>
         </div>
     </body>

@@ -22,26 +22,14 @@
             <h1 class="loadertext">CHARGEMENT</h1>
             <img class="loadergif" src="../assets/loader.gif">
         </div>
-        <div class="header">
-            <div class="container">
-                <div class="header__navbar">
-                    <a href="../index.html" class="header__navbar--logo">
-                        <img class= "header__navbar--logo--amaterasu" src="../assets/logo amaterasu.png">
-                        <h1 class="header__navbar--logo--name">Amaterasu</h1>
-                    </a>
-                    <div class="header__navbar--menu">
-                        <a href="https://discord.gg/5Mww29D9kB" class="header__navbar--menu--link" target="_blank"><i class="fab fa-discord"></i> Discord</a>
-                        <a href="https://github.com/Wizi8914/Amaterasu" class="header__navbar--menu--link" target="_blank"><i class="fab fa-github"></i> Github</a>
-                        <a href="https://twitter.com/Wizi20540539" class="header__navbar--menu--link" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php 
+            include "../Includes/header.html"
+        ?>
         <div id="container" class="grid">
 
             <div class="separate">
                 <?php
-                    include "../Includes/sidebar.php"
+                    include "../Includes/sidebar.html"
                 ?>
 
                 <div class="commandinfo">
@@ -52,7 +40,7 @@
             </div>
 
             <?php 
-                include "../Includes/footer.php"
+                include "../Includes/footer.html"
             ?>
         </div>
     </body>
