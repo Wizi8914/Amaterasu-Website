@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
 
 function load() {
     for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
-        document.querySelector(`.listcommand:nth-child(${i})`).style.height = `${(document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount *23) + 64 }px`
+        document.querySelector(`.listcommand:nth-child(${i})`).style.height = `${(document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount *22) + 75 }px`
         
     }
 }
@@ -24,7 +24,7 @@ function list(number) {
         if(document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display === "none") {
             wait = 1
             document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "list-item"
-            document.querySelector(`.listcommand:nth-child(${number})`).style.height = `${(document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount *23) + 64 }px`
+            document.querySelector(`.listcommand:nth-child(${number})`).style.height = `${(document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount *22) + 64 }px`
     
             document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.transform = "rotate(0deg)"
             setTimeout(() => {
@@ -48,7 +48,7 @@ function list(number) {
 
 function search() {
     const content = document.querySelector('.searchboxitem').value.toLowerCase()
-    document.querySelector(`.listcommand`).style.height = "auto"
+    
 
     const commandlist = []
     for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
@@ -82,4 +82,5 @@ function search() {
             document.querySelector(`.categorylist ul .listcommand:nth-child(${i})`).style.display = "list-item"
         }
     }
+
 }

@@ -76,24 +76,24 @@
                                         </div>
                                     </button>
                                     <ul>
-                                        <li><a class="commandlink" href="#avatar">avatar</a></li>
-                                        <li><a class="commandlink" href="#calcul">calcul</a></li>
-                                        <li><a class="commandlink" href="#calculator">calculator</a></li>
-                                        <li><a class="commandlink" href="#cat">cat</a></li>
-                                        <li><a class="commandlink" href="#coinflip">coinflip</a></li>
-                                        <li><a class="commandlink" href="#dog">dog</a></li>
-                                        <li><a class="commandlink" href="#gif">gif</a></li>
-                                        <li><a class="commandlink" href="#icon">icon</a></li>
-                                        <li><a class="commandlink" href="#image">image</a></li>
-                                        <li><a class="commandlink" href="#invite">invite</a></li>
-                                        <li><a class="commandlink" href="#mcplayer">mcplayer</a></li>
-                                        <li><a class="commandlink" href="#pi">pi</a></li>
-                                        <li><a class="commandlink" href="#say">say</a></li>
-                                        <li><a class="commandlink" href="#sbstats">sbstats</a></li>
-                                        <li><a class="commandlink" href="#soundboard">soundboard</a></li>
-                                        <li><a class="commandlink" href="#wikipedia">wikipedia</a></li>
-                                        <li><a class="commandlink" href="#bug">bug</a></li>
-                                        <li><a class="commandlink" href="#translate">translate</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#avatar">avatar</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#calcul">calcul</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#calculator">calculator</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#cat">cat</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#coinflip">coinflip</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#dog">dog</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#gif">gif</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#icon">icon</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#image">image</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#invite">invite</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#mcplayer">mcplayer</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#pi">pi</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#say">say</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#sbstats">sbstats</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#soundboard">soundboard</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#wikipedia">wikipedia</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#bug">bug</a></li>
+                                        <li><a class="commandlink" href="/pages/divers.html#translate">translate</a></li>
                                     </ul>
                                 </li>
                                 <li class="listcommand">
@@ -104,13 +104,13 @@
                                         </div>
                                     </button>
                                     <ul>
-                                        <li><a class="commandlink" href="/pages/utilitaire.html#botinfo">botinfo</a></li>
-                                        <li><a class="commandlink" href="/pages/utilitaire.html#clearchat">clearchat</a></li>
-                                        <li><a class="commandlink" href="/pages/utilitaire.html#help">help</a></li>
-                                        <li><a class="commandlink" href="/pages/utilitaire.html#ping">ping</a></li>
-                                        <li><a class="commandlink" href="/pages/utilitaire.html#roles">roles</a></li>
-                                        <li><a class="commandlink" href="/pages/utilitaire.html#server">server</a></li>
-                                        <li><a class="commandlink" href="/pages/utilitaire.html#servericon">servericon</a></li>
+                                        <li><a class="commandlink" href="#botinfo">botinfo</a></li>
+                                        <li><a class="commandlink" href="#clearchat">clearchat</a></li>
+                                        <li><a class="commandlink" href="#help">help</a></li>
+                                        <li><a class="commandlink" href="#ping">ping</a></li>
+                                        <li><a class="commandlink" href="#roles">roles</a></li>
+                                        <li><a class="commandlink" href="#server">server</a></li>
+                                        <li><a class="commandlink" href="#servericon">servericon</a></li>
                                     </ul>
                                 </li>
                                 <li class="listcommand">
@@ -157,35 +157,19 @@
                 </div>
 
                 <div class="commandinfo">
-                    <h1 class="wip" id="avatar">avatar</h1>
-                    <h1 class="wip" id="calcul">calcul</h1>
-                    <h1 class="wip" id="calculator">calculator</h1>
-                    <h1 class="wip" id="cat">cat</h1>
-                    <h1 class="wip" id="coinflip">coinflip</h1>
-                    <h1 class="wip" id="dog">dog</h1>
-                    <h1 class="wip" id="gif">gif</h1>
-                    <h1 class="wip" id="icon">icon</h1>
-                    <h1 class="wip" id="image">image</h1>
-                    <h1 class="wip" id="invite">invite</h1>
-                    <h1 class="wip" id="mcplayer">mcplayer</h1>
-                    <h1 class="wip" id="pi">pi</h1>
-                    <h1 class="wip" id="say">say</h1>
-                    <h1 class="wip" id="sbstats">sbstats</h1>
-                    <h1 class="wip" id="soundboard">soundboard</h1>
-                    <h1 class="wip" id="wikipedia">wikipedia</h1>
-                    <h1 class="wip" id="bug">bug</h1>
-                    <h1 class="wip" id="translate">translate</h1>
+                    <h1 class="wip" id="botinfo">botinfo</h1>
+                    <h1 class="wip" id="clearchat">clearchat</h1>
+                    <h1 class="wip" id="help">help</h1>
+                    <h1 class="wip" id="ping">ping</h1>
+                    <h1 class="wip" id="roles">roles</h1>
+                    <h1 class="wip" id="server">server</h1>
+                    <h1 class="wip" id="servericon">servericon</h1>
                 </div>
             </div>
 
-            <footer class="sitefooter">
-                <span>Copyright by Wizi © 2019 - 2022</span>
-                <div class="linkfooter">
-                    <a href="https://discord.gg/5Mww29D9kB" class="footerlink" target="_blank"><i class="fab fa-discord"></i></a>
-                    <a href="https://github.com/Wizi8914/Amaterasu" class="footerlink" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/Wizi20540539" class="footerlink" target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
-            </footer>
+            <?php 
+                include "../Includes/footer.php"
+            ?>
         </div>
     </body>
 </html>
