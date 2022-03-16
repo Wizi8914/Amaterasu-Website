@@ -59,7 +59,6 @@ li {
 .listcommand {
     transition-duration: 500ms;
     overflow: hidden;
-    padding-bottom: 11px;
 }
 
 .listcommand:nth-child(1) {
