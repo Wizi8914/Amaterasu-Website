@@ -6,11 +6,17 @@ window.addEventListener("load", () => {
         document.querySelector(".loader").remove();
     }, 400);
 
-    
-
-
-
 });
+
+//=======================================  FIX  ====================================
+
+function load() {
+    for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
+        document.querySelector(`.listcommand:nth-child(${i})`).style.height = `${(document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount *23) + 64 }px`
+        
+    }
+}
+
 //===============================    COMMAND LIST    =========================================
 let wait = 0;
 function list(number) {
@@ -38,7 +44,6 @@ function list(number) {
         }
     }
 }
-
 //=======================================      INPUT      ============================================
 
 function search() {

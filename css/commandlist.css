@@ -60,8 +60,12 @@ li {
     transition-duration: 500ms;
     overflow: hidden;
     padding-bottom: 11px;
-    height: auto;
 }
+
+.listcommand:nth-child(1) {
+    height: 317px;
+}
+
 
 
 ul {
