@@ -53,12 +53,14 @@ li {
     overflow: hidden;
     display: list-item;
     transform: translate(0px, 11px);
+    height: auto;
 }
 
 .listcommand {
     transition-duration: 500ms;
     overflow: hidden;
     padding-bottom: 11px;
+    height: auto;
 }
 
 

@@ -18,7 +18,6 @@ function list(number) {
         if(document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display === "none") {
             wait = 1
             document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "list-item"
-            document.querySelector(`.listcommand:nth-child(${number}) ul`).style.transform = `translate(0, ${document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount}px`
             document.querySelector(`.listcommand:nth-child(${number})`).style.height = `${(document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount *23) + 64 }px`
     
             document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.transform = "rotate(0deg)"
