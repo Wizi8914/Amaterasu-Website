@@ -1,0 +1,61 @@
+body, html {
+    background-color: #1D1D1D;
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5bcc99;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #77d4ab;
+}
+
+::-webkit-scrollbar-track {
+    background: #292828;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    height: calc(100vh - 4rem);
+    
+}
+
+.wip {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+    font-size: auto;
+}
+
+#container {
+    overscroll-behavior-y: none;
+    height: calc(100vh - 80px);
+    overflow: auto;
+}
+
+p {
+    color: white;
+    margin: 2%;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.separate {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}

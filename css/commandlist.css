@@ -1,113 +1,119 @@
 .command {
-    background: rgb(35, 37, 35);
-    margin-top: 0px;
-    height: calc(100vh - 4rem);
-    width: 18rem;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: sticky;
-    top: 0;
+  background: #232523;
+  margin-top: 0px;
+  height: calc(100vh - 4rem);
+  width: 18rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .commandlist {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .commandinfo {
-    overflow-x: hidden;
-    width: 100%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .searchbox {
-    justify-content: center;
-    margin-top: 20px;
-    display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .searchboxitem {
-    border-radius: 5px;
-    padding: 10px;
-    border: none;
-    color: white;
-    font-size: 15px;
-    transition-duration: 250ms;
-    background-color: #1a1919;
-    font-family: 'Nunito', sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  background-color: #1a1919;
+  font-family: 'Nunito', sans-serif;
 }
 
 .searchboxitem:hover {
-    background-color: #1d1c1c;
+  background-color: #1d1c1c;
 }
 
-
 li {
-    display: list-item;
-    color: white;
+  display: list-item;
+  color: white;
 }
 
 .listcommand ul {
-    transition-duration: 500ms;
-    overflow: hidden;
-    display: list-item;
-    transform: translate(0px, 11px);
-    height: auto;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  overflow: hidden;
+  display: list-item;
+  -webkit-transform: translate(0px, 11px);
+          transform: translate(0px, 11px);
+  height: auto;
 }
 
 .listcommand {
-    transition-duration: 500ms;
-    overflow: hidden;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  overflow: hidden;
 }
 
-
-
-
 ul {
-    list-style: none;
-
+  list-style: none;
 }
 
 .categorylist button {
-    border: 0;
-    background: transparent;
-    color: white;
-    padding: 13px;
-    margin-top: 15px;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    z-index: 7;
+  border: 0;
+  background: transparent;
+  color: white;
+  padding: 13px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 7;
 }
-
 
 button:hover {
-    background: #312f31;
+  background: #312f31;
 }
 
-
 .arrow {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .arrow i {
-    padding-left: 5.25px;
-    padding-right: 5.25px;
-    transition-duration: 500ms;
+  padding-left: 5.25px;
+  padding-right: 5.25px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
 }
 
 .commandlink {
-    display: block;
+  display: block;
 }
 
 .commandlink:hover {
-    color: #52c794;
-
+  color: #52c794;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    transition-duration: 250ms;
+  text-decoration: none;
+  color: white;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
 }
+/*# sourceMappingURL=commandlist.css.map */

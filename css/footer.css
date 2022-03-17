@@ -1,44 +1,63 @@
 .sitefooter {
-    display: grid;
-    grid-template-columns: 233px 340px 233px;
-    align-items: start;
-    justify-content: space-between;
-    background-color: #272727;
-    align-items: center;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 233px 340px 233px;
+      grid-template-columns: 233px 340px 233px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #272727;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sitefooter span {
-    display: flex;
-    color: white;
-    align-items: center;
-    margin-right: 10px;
-    margin-left: auto;
-    
-    font-size: small;
-    grid-column: 2;
-    grid-row: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  margin-left: auto;
+  font-size: small;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
 }
 
 .linkfooter {
-    grid-column: 3;
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-    margin-left: auto;
-
+  -ms-grid-column: 3;
+  grid-column: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  margin-left: auto;
 }
 
 .footerlink {
-    margin-left: 15px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition-duration: 250ms;
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
 }
 
 .footerlink:hover {
-    color: #5bcc99;
+  color: #5bcc99;
 }
+/*# sourceMappingURL=footer.css.map */

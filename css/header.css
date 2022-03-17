@@ -1,74 +1,94 @@
 .header {
-    height: 80px;
-    width: 100%;
-    background: #379C6F;
-    display: block;
+  height: 80px;
+  width: 100%;
+  background: #379C6F;
+  display: block;
 }
 
 .header__navbar--logo--name {
-    color: white;
-    font-size: 30px;
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  color: white;
+  font-size: 30px;
+  display: block;
+  -webkit-margin-before: 0.67em;
+          margin-block-start: 0.67em;
+  -webkit-margin-after: 0.67em;
+          margin-block-end: 0.67em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .header__navbar--logo--amaterasu {
-    height: 45px;
-    width: 45px;
-    margin-right: 10px;
-    transition-duration: 250ms;
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
 }
 
 .header__navbar--logo--amaterasu:hover {
-    height: 55px;
-    width: 55px;
+  height: 55px;
+  width: 55px;
 }
 
 .header__navbar--logo {
-    align-items: center;
-    display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header__navbar {
-    width: 100%;
-    height: auto;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: auto;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__navbar--menu--link {
-    margin-left: 10px;
-    color: white;
-    text-decoration: none;
-    padding: 15px 15px;
-    border-radius: 5px;
-    transition-duration: 250ms;
-
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
 }
 
 .header__navbar--menu--link:hover {
-    background-color: #367c5d;
-    color: white;
+  background-color: #367c5d;
+  color: white;
 }
 
 .colortheme {
-    height: 30px;
-    width: 30px;
-    background: transparent;
-    border: 0;
-    border-radius: 5px;
-    align-items: center;
-
+  height: 30px;
+  width: 30px;
+  background: transparent;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .colortheme i {
-    color: white;
-    font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
+/*# sourceMappingURL=header.css.map */
