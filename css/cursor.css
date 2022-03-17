@@ -1,0 +1,11 @@
+.cursor {
+  position: absolute;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  cursor: none;
+}
+/*# sourceMappingURL=cursor.css.map */

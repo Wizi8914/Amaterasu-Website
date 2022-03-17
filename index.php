@@ -14,7 +14,9 @@
         <link rel="stylesheet" href="./css/commandlist.css" />
         <link rel="stylesheet" href="./css/loader.css" />
         <link rel="stylesheet" href="./css/footer.css" />
+        <link rel="stylesheet" href="./css/cursor.css">
         <script src="./js/app.js"></script>
+        <script src="./js/cursor.js"></script>
     </head>
 
     <body onload="load()">
@@ -23,10 +25,12 @@
             <img class="loadergif" src="./assets/loader.gif">
         </div>
         
+        <img class="cursor" src="./assets/cursor/normal.png" alt="">
+        
         <div class="header">
             <div class="container">
                 <div class="header__navbar">
-                    <a href="../index.php" class="header__navbar--logo">
+                    <a href="./index.php" class="header__navbar--logo">
                         <img class="header__navbar--logo--amaterasu" src="./assets/logo amaterasu.png">
                         <h1 class="header__navbar--logo--name">Amaterasu</h1>
                     </a>
@@ -39,6 +43,7 @@
             </div>
         </div>
         <div id="container" class="grid">
+
             <div class="separate">
                 <?php
                     include "./Includes/sidebar.html"

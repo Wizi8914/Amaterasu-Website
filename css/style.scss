@@ -5,6 +5,10 @@ body, html {
     font-family: 'Nunito', sans-serif;
 }
 
+body {
+    cursor: none;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -51,6 +55,7 @@ p {
 .grid {
     display: grid;
     grid-template-rows: 1fr auto;
+    cursor: none;
 }
 
 .separate {
