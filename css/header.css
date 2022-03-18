@@ -40,6 +40,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  cursor: none;
 }
 
 .header__navbar {
@@ -69,6 +70,7 @@
   border-radius: 5px;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
+  cursor: none;
 }
 
 .header__navbar--menu--link:hover {

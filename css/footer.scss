@@ -28,6 +28,7 @@
     align-items: center;
     margin-right: 10px;
     margin-left: auto;
+    cursor: none;
 
 }
 
@@ -37,6 +38,11 @@
     text-decoration: none;
     border-radius: 5px;
     transition-duration: 250ms;
+    cursor: none;
+}
+
+.footerlink .fab {
+    cursor: none;
 }
 
 .footerlink:hover {

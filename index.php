@@ -25,7 +25,7 @@
             <img class="loadergif" src="./assets/loader.gif">
         </div>
         
-        <img class="cursor" src="./assets/cursor/normal.png" alt="">
+        <img class="cursor" id="cursor" src="./assets/cursor/normal.png" alt="">
         
         <div class="header">
             <div class="container">
