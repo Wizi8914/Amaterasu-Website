@@ -5,7 +5,7 @@
   height: 20px;
   position: absolute;
   pointer-events: none;
-  display: block;
+  display: none;
   cursor: none;
 }
 /*# sourceMappingURL=cursor.css.map */

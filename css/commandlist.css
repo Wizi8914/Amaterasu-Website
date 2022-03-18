@@ -42,6 +42,7 @@
           transition-duration: 250ms;
   background-color: #1a1919;
   font-family: 'Nunito', sans-serif;
+  cursor: none;
 }
 
 .searchboxitem:hover {
@@ -81,7 +82,7 @@ ul {
   margin-top: 15px;
   border-radius: 5px;
   font-size: 20px;
-  cursor: pointer;
+  cursor: none;
 }
 
 button:hover {
@@ -103,6 +104,7 @@ button:hover {
 
 .commandlink {
   display: block;
+  cursor: none;
 }
 
 .commandlink:hover {
