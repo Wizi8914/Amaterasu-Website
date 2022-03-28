@@ -3,6 +3,7 @@
   width: 100%;
   background: #379C6F;
   display: block;
+  cursor: none;
 }
 
 .header__navbar--logo--name {
@@ -60,6 +61,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: none;
 }
 
 .header__navbar--menu--link {
@@ -76,21 +78,5 @@
 .header__navbar--menu--link:hover {
   background-color: #367c5d;
   color: white;
-}
-
-.colortheme {
-  height: 30px;
-  width: 30px;
-  background: transparent;
-  border: 0;
-  border-radius: 5px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.colortheme i {
-  color: white;
-  font-size: 25px;
 }
 /*# sourceMappingURL=header.css.map */

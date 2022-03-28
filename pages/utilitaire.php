@@ -10,8 +10,11 @@
 
         <div class="loader">
             <h1 class="loadertext">CHARGEMENT</h1>
-            <img class="loadergif" src="../assets/loader.gif">
+            <img class="loadergif" src="../assets/gif/loader.gif">
         </div>
+
+        <img class="cursor" id="cursor" src="../assets/cursor/normal.png">
+
         <?php 
             include "../Includes/header.html"
         ?>

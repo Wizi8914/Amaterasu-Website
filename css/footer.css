@@ -28,7 +28,7 @@
           align-items: center;
   margin-right: 10px;
   margin-left: auto;
-  font-size: small;
+  font-size: medium;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 1;
@@ -64,6 +64,22 @@
 }
 
 .footerlink:hover {
+  color: #5bcc99;
+}
+
+.footer-logo {
+  height: 16px;
+  width: 16px;
+  display: inline;
+}
+
+.liblink {
+  cursor: none;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+.liblink:hover {
   color: #5bcc99;
 }
 /*# sourceMappingURL=footer.css.map */

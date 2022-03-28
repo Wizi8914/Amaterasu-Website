@@ -22,7 +22,7 @@
     <body onload="load()">
         <div class="loader">
             <h1 class="loadertext">CHARGEMENT</h1>
-            <img class="loadergif" src="./assets/loader.gif">
+            <img class="loadergif" src="./assets/gif/loader.gif">
         </div>
         
         <img class="cursor" id="cursor" src="./assets/cursor/normal.png" alt="">
@@ -34,23 +34,22 @@
                         <img class="header__navbar--logo--amaterasu" src="./assets/logo amaterasu.png">
                         <h1 class="header__navbar--logo--name">Amaterasu</h1>
                     </a>
+
+
                     <div class="header__navbar--menu">
                         <a href="https://discord.gg/5Mww29D9kB" class="header__navbar--menu--link" target="_blank"><i class="fab fa-discord"></i> Discord</a>
                         <a href="https://github.com/Wizi8914/Amaterasu" class="header__navbar--menu--link" target="_blank"><i class="fab fa-github"></i> Github</a>
                         <a href="https://twitter.com/Wizi20540539" class="header__navbar--menu--link" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
                     </div>
+
                 </div>
             </div>
         </div>
         <div id="container" class="grid">
-
-            <div class="separate">
-                <?php
-                    include "./Includes/sidebar.html"
-                ?>
-                
+            <div class="separate"> 
                 <nav class="commandinfo">
                     <h1 class="wip">WORK IN PROGRESS...</h1>
+                    
                 </nav>
             </div>
 
@@ -60,5 +59,4 @@
         </div>
     </body>
 </html>
-
 

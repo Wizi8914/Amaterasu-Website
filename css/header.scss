@@ -3,6 +3,7 @@
     width: 100%;
     background: #379C6F;
     display: block;
+    cursor: none;
 }
 
 .header__navbar--logo--name {
@@ -42,6 +43,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    cursor: none;
 }
 
 .header__navbar--menu--link {
@@ -60,17 +62,3 @@
     color: white;
 }
 
-.colortheme {
-    height: 30px;
-    width: 30px;
-    background: transparent;
-    border: 0;
-    border-radius: 5px;
-    align-items: center;
-
-}
-
-.colortheme i {
-    color: white;
-    font-size: 25px;
-}
