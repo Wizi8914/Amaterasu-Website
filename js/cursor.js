@@ -29,6 +29,8 @@ document.addEventListener("mouseover", (p) => {
     push(".header__navbar--logo--amaterasu")
     push(".header__navbar--logo--name")
     push(".arrow span")
+    push(".doc")
+    push(".addbot")
 
     if (u.includes(p.target)) {
         document.getElementById("cursor").src = "../assets/cursor/hand.png"

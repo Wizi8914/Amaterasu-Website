@@ -1,0 +1,109 @@
+.mainbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addbot {
+  background: #39bb81;
+  background: -webkit-gradient(linear, left top, right top, color-stop(31%, #39bb81), color-stop(74%, #25dbb4));
+  background: linear-gradient(90deg, #39bb81 31%, #25dbb4 74%);
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  height: 70px;
+  margin-right: 30px;
+  margin-left: auto;
+  cursor: none;
+  border-radius: 35px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addbot a {
+  margin-top: 15px;
+  cursor: none;
+}
+
+.doc a {
+  margin-top: 15px;
+  cursor: none;
+}
+
+.addbot:hover {
+  -webkit-transform: translate(0px, -12px);
+          transform: translate(0px, -12px);
+}
+
+.doc:hover {
+  -webkit-transform: translate(0px, -12px);
+          transform: translate(0px, -12px);
+}
+
+.doc {
+  background: #39bb81;
+  background: -webkit-gradient(linear, left top, right top, color-stop(31%, #39bb81), color-stop(74%, #25dbb4));
+  background: linear-gradient(90deg, #39bb81 31%, #25dbb4 74%);
+  text-align: center;
+  font-size: 30px;
+  width: 350px;
+  height: 70px;
+  margin-left: 30px;
+  margin-right: auto;
+  cursor: none;
+  border-radius: 35px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fav {
+  padding: 0 150px;
+}
+
+.feature {
+  background: #59c078;
+  width: 90%;
+  border-radius: 26px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 2em 5em;
+  margin-bottom: 140px;
+}
+
+.feature h2 {
+  font-weight: 700;
+  font-size: 19px !important;
+  line-height: 23px;
+  color: white;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.mainpage {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+}
+/*# sourceMappingURL=index.css.map */

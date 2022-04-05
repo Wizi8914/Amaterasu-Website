@@ -73,6 +73,12 @@
   display: inline;
 }
 
+.sitefooter p {
+  color: white;
+  margin: 2%;
+  text-align: center;
+}
+
 .liblink {
   cursor: none;
   -webkit-transition-duration: 250ms;

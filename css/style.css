@@ -3,7 +3,6 @@ body, html {
   height: 100vh;
   margin: 0px;
   font-family: 'Nunito', sans-serif;
-  cursor: auto;
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +27,7 @@ body, html {
   height: calc(100vh - 4rem);
 }
 
-.wip {
+.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,20 +35,14 @@ body, html {
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
-  margin-top: 300px;
-  font-size: auto;
+  margin-top: 250px;
+  font-size: 70px;
 }
 
 #container {
   overscroll-behavior-y: none;
   height: calc(100vh - 80px);
   overflow: auto;
-}
-
-p {
-  color: white;
-  margin: 2%;
-  text-align: center;
 }
 
 .grid {

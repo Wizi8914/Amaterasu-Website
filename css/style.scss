@@ -28,24 +28,18 @@ body, html {
     
 }
 
-.wip {
+.title {
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 300px;
-    font-size: auto;
+    margin-top: 250px;
+    font-size: 70px;
 }
 
 #container {
     overscroll-behavior-y: none;
     height: calc(100vh - 80px);
     overflow: auto;
-}
-
-p {
-    color: white;
-    margin: 2%;
-    text-align: center;
 }
 
 .grid {
