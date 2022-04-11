@@ -63,40 +63,48 @@
             </div>
             <div class="fav">
                 <div class="feature">
-                    <div></div>
                     <div>
+                        <img src="./assets/img/feature/feature_1.png" class="left">
+                    </div>
+                    <div style="width: 100%;">
                         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corporis totam. Doloribus quasi consequuntur itaque?</p>
                     </div>
                 </div>
 
                 <div class="feature">
-                    <div></div>
+                    <div style="width: 100%;">
+                        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corporis totam. Doloribus quasi consequuntur itaque?</p>
+                    </div>
                     <div>
+                        <img src="./assets/img/feature/feature_2.png" class="right">
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div>
+                        <img src="./assets/img/feature/feature_3.png" class="left">
+                    </div>
+                    <div style="width: 100%;">
                         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corporis totam. Doloribus quasi consequuntur itaque?</p>
                     </div>
                 </div>
 
                 <div class="feature">
-                    <div></div>
-                    <div>
+                    <div style="width: 100%;">
                         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corporis totam. Doloribus quasi consequuntur itaque?</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/feature/feature_4.png" class="right">
                     </div>
                 </div>
 
                 <div class="feature">
                     <div></div>
-                    <div>
-                        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corporis totam. Doloribus quasi consequuntur itaque?</p>
-                    </div>
-                </div>
-
-                <div class="feature">
-                    <div></div>
-                    <div>
+                    <div style="width: 100%;">
                         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corporis totam. Doloribus quasi consequuntur itaque?</p>
                     </div>

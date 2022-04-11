@@ -94,3 +94,61 @@
     margin-right: auto;
     margin-bottom: 300px;
 }
+
+
+
+.feature .right {
+    margin-bottom: -60%;
+    border-radius: 10px;
+    width: 450px;
+    -webkit-perspective: 484px;
+    perspective: 484px;
+    -webkit-box-shadow: 67.1px 62.5px 125px -25px #09090edb, 16.2px 37.5px 75px -37.5px #060c2245;
+    box-shadow: 67.1px 62.5px 125px -25px #09090edb, 16.2px 37.5px 75px -37.5px #060c2245;
+    -webkit-transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(-35px) translateY(-185px);
+    transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(-35px) translateY(-185px);
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.feature .right:hover {
+    width: 450px;
+    -webkit-perspective: 0;
+    perspective: 0;
+    -webkit-transform: scale(1) rotateX(0) rotateY(0) rotate(0) translateX(35px)
+      translateY(-135px);
+    transform: scale(1) rotateX(0) rotateY(0) rotate(0) translateX(35px)
+      translateY(-135px);
+  }
+
+
+
+  .feature .left {
+    margin-bottom: -60%;
+    border-radius: 10px;
+    width: 450px;
+    -webkit-perspective: 484px;
+    perspective: 484px;
+    -webkit-box-shadow: -67.1px 62.5px 125px -25px rgba(9, 9, 14, 0.856),
+      -16.2px 37.5px 75px -37.5px rgba(6, 12, 34, 0.274);
+    box-shadow: -67.1px 62.5px 125px -25px rgba(9, 9, 14, 0.856),
+      -16.2px 37.5px 75px -37.5px rgba(6, 12, 34, 0.274);
+    -webkit-transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg)
+      rotate(-9.8deg) translateX(-15px) translateY(-185px);
+    transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg)
+      rotate(-9.8deg) translateX(-15px) translateY(-185px);
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+
+  .feature .left:hover {
+    width: 450px;
+    -webkit-perspective: 0;
+    perspective: 0;
+    -webkit-transform: scale(1) rotateX(0) rotateY(0) rotate(0) translateX(-45px)
+      translateY(-135px);
+    transform: scale(1) rotateX(0) rotateY(0) rotate(0) translateX(-45px)
+      translateY(-135px);
+  }

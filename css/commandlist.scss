@@ -2,7 +2,7 @@
     background: rgb(35, 37, 35);
     margin-top: 0px;
     height: calc(100vh - 4rem);
-    width: 18rem;
+    width: 16rem;
     overflow-x: hidden;
     overflow-y: auto;
     position: sticky;
@@ -15,10 +15,9 @@
 
 .commandinfo {
     overflow-x: hidden;
-    width: 100%;
-    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 .searchbox {
@@ -112,4 +111,8 @@ a {
     text-decoration: none;
     color: white;
     transition-duration: 250ms;
+}
+
+.wip {
+    margin-bottom: 200px;
 }
