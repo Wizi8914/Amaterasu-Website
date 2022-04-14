@@ -1,5 +1,4 @@
 let cursor = document.querySelector('.cursor');
-console.log(window.innerHeight)
 document.addEventListener('mousemove', e => {
 
 

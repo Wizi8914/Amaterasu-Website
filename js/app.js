@@ -1,5 +1,6 @@
 //=========================    LOADER    ==========================
 
+
 window.addEventListener("load", () => {
     document.querySelector(".loader").classList.add("fondu-out");
     setTimeout(() => {
@@ -24,11 +25,22 @@ function list(number) {
         if(document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display === "none") {
             wait = 1
             document.querySelector(`.listcommand:nth-child(${number}) ul`).style.display = "list-item"
-            document.querySelector(`.listcommand:nth-child(${number})`).style.height = `${(document.querySelector(`.listcommand:nth-child(${number}) ul`).childElementCount *22) + 75 }px`
+
+            console.log(document.querySelector(`.listcommand:nth-child(${number}) ul li:nth-child(3) a`));
+            
+            let a = 0;
+            for (let j = 1; j < document.querySelector(`.listcommand:nth-child(${number}) ul `).childElementCount +1; j++) {
+                if (document.querySelector(`.listcommand:nth-child(${number}) ul li:nth-child(${j}) a`).style.display === "block") {
+                    a++
+                } 
+            }
+
+            document.querySelector(`.listcommand:nth-child(${number})`).style.height = `${(a*22) + 75 }px`
+
     
             document.querySelector(`.listcommand:nth-child(${number}) button .arrow i`).style.transform = "rotate(0deg)"
             setTimeout(() => {
-                wait = 0
+                wait = 0;
             }, 500);
     
         } else {
@@ -68,6 +80,7 @@ function search() {
     let p = 0
     for (let i = 1; i < document.querySelector(".categorylist ul").childElementCount + 1; i++) {
         p = 0
+
         for (let u = 1; u < document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount + 1; u++) {
             
             if (document.querySelector(`.listcommand:nth-child(${i}) ul li:nth-child(${u}) .commandlink`).style.display === "none") {
@@ -75,10 +88,20 @@ function search() {
             }
 
         }
+
         if (p == document.querySelector(`.listcommand:nth-child(${i}) ul`).childElementCount) {
             document.querySelector(`.categorylist ul .listcommand:nth-child(${i})`).style.display = "none"
         } else {
             document.querySelector(`.categorylist ul .listcommand:nth-child(${i})`).style.display = "list-item"
+
+            let a = 0;
+            for (let j = 1; j < document.querySelector(`.listcommand:nth-child(${i}) ul `).childElementCount +1; j++) {
+                if (document.querySelector(`.listcommand:nth-child(${i}) ul li:nth-child(${j}) a`).style.display === "block") {
+                    a++
+                } 
+            }
+
+            document.querySelector(`.listcommand:nth-child(${i})`).style.height = `${(a*22) + 75 }px`
         }
     }
 
